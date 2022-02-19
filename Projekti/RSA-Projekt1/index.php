@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='sl'>
 <head>
-    <title>Index</title>
+    <title>Start</title>
 </head>
 <body>
 <h1>GLAVA</h1>

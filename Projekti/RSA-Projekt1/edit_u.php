@@ -24,7 +24,5 @@
         $result=mysqli_query($link, $sql);
 
         header("Location:izpis_u.php");
-
-        
     ?>
 </body>

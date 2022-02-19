@@ -15,7 +15,6 @@
             echo "<p>Prijavljeni ste kot: ".$_GET['name']." ".$_GET['surname']."</p>";
         }
     ?>
-    
     <h1>Seznam aktivnosti</h1>
     <ol>
         <li><a href="izpis_u.php" target="_blank">Izpis uporabnikov</a></li>

@@ -26,3 +26,4 @@
         header("Location:izpis_u.php");
     ?>
 </body>
+</html>

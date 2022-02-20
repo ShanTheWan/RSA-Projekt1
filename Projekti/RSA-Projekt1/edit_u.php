@@ -5,7 +5,6 @@
     <title>Vaja</title>
 </head>
 <body>
-
     <?php
         $i=$_POST['id'];
         echo $i."<br>";

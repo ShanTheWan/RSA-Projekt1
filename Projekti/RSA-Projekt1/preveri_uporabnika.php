@@ -26,11 +26,9 @@
             
             if($kolk==1)
             {
-                echo "IME: ".$row['name']."<br>";
-                echo "PRIIMEK: ".$row['surname']."<br>";
-                $name=$row['name'];
-                $surname=$row['surname'];
-                header ("location:index.php?name=$name&surname=$surname");
+                $_SESSION['name']=$row['name'];
+                $_SESSION['surname']=$row['surname'];
+                echo $_SESSION['name']." ".$_SESSION['surname'];
                 
             }
             else

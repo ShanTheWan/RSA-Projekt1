@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang='sl'>
 <head>
@@ -12,7 +13,7 @@
         }
         else
         {
-            echo "<p>Prijavljeni ste kot: ".$_GET['name']." ".$_GET['surname']."</p>";
+            echo "<p>Prijavljeni ste kot: ".$_SESSION['name'].$_SESSION['surname']."</p>";
         }
     ?>
     <h1>Seznam aktivnosti</h1>

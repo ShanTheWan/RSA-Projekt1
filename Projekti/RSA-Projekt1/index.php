@@ -7,13 +7,13 @@
 <body>
 <h1>GLAVA</h1>
     <?php
-        if(!isset($_GET['name']))
+        if(!isset($_SESSION['name']))
         {
             echo "<p>Prijavite se <a href=prijava.php>TUKAJ</a></p>";
         }
         else
         {
-            echo "<p>Prijavljeni ste kot: ".$_SESSION['name'].$_SESSION['surname']."</p>";
+            echo "<p>Prijavljeni ste kot: ".$_SESSION['name']." ".$_SESSION['surname']."</p>";
         }
     ?>
     <h1>Seznam aktivnosti</h1>
